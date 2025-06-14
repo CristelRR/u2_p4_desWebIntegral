@@ -10,7 +10,10 @@ function App() {
           ¡Bienvenid@ al mundo del la F1!
         </p>
         <p className="message">
-          ¡Ya quedo!
+          ¡Ya quedooooo!
+        </p>
+        <p className="message">
+          ------------------------------------
         </p>
       </header>
     </div>
