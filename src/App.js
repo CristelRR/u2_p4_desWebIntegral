@@ -9,6 +9,9 @@ function App() {
         <p className="message">
           ¡Bienvenid@ al mundo del la F1!
         </p>
+        <p className="message">
+          ¡Holaaaaa!
+        </p>
       </header>
     </div>
   );
