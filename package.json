@@ -15,7 +15,7 @@
   },
   "homepage": "https://CristelRR.github.io/u2_p4_desWebIntegral",
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HOST=0.0.0.0 PORT=4300 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

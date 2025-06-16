@@ -13,8 +13,11 @@ RUN npm install
 # Copia el resto del código
 COPY . .
 
-# Expone el puerto en el que corre React
-EXPOSE 3000
+# Puerto
+ENV PORT=4300
+EXPOSE 4300
+CMD ["npm", "start"]
+
 
 # Comando para iniciar la app
 CMD ["npm", "start"]
