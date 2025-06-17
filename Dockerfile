@@ -13,11 +13,8 @@ RUN npm install
 # Copia el resto del código
 COPY . .
 
-# Puerto
-ENV PORT=4300
+# Puerto de exposición
 EXPOSE 4300
-CMD ["npm", "start"]
 
-
-# Comando para iniciar la app
+# Comando para iniciar la app en el puerto deseado
 CMD ["npm", "start"]
