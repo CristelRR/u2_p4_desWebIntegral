@@ -5,7 +5,7 @@ const Layout = () => {
   return (
     <>
       <header className="header">
-        <div className="logo">Willims Racing</div>
+        <div className="logo"> Racing</div>
         <nav>
           <Link to="/">Inicio</Link>
           <Link to="/about">Acerca de</Link>
